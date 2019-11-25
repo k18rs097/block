@@ -337,6 +337,7 @@ function init() {
     });
 
     requestAnimFrame(animate);
+    ncmbCotroller.init(BB.screenSize);
 }
 
 
