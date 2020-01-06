@@ -24,6 +24,7 @@ var imgPath = {
     'block_blue' : 'img/block_blue.png',
     'block_silver' : 'img/block_silver.png',
     'block_gold' : 'img/block_gold.png'
+    
 };
     
 
@@ -49,8 +50,9 @@ var BB = {
             [null,      'red',      'red',      null,       null,       'gold',     null,       null,       'silver',   'silver'],    
             [null,      null,       'red',      'red',       null,       null,       null,       'silver',   'silver',   null],    
             [null,      null,       null,       'red',      'red',       null,       'silver',   'silver',   null,       null],    
-            [null,      null,       null,       null,       'silver',   'silver',   'silver',   null,       null,       null],
+            [null,      'silver',       null,       null,       'silver',   'silver',   'silver',   null,       null,       'silver',  ],
             [null,      null,       null,       null,       null,       'silver',   null,       null,       null,       null]
+           
         ];
         
         for(j = 0; j < blockMap.length; j++) {
