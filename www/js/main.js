@@ -43,15 +43,15 @@ var BB = {
     // Create blocks map
     setMap: function() {
         var blockMap = [
-            [null,      null,       null,       null,       null,       'blue',     null,       null,       null,       null],
-            [null,      null,       null,       null,       'red',      'red',      'blue',     null,       null,       null],
-            [null,      null,       null,       'red',      'red',      null,       null,       'blue',     null,       null],
-            [null,      null,       'red',      'red',      null,       null,       null,       null,       'blue',     null],    
-            [null,      'red',      'red',      null,       null,       'gold',     null,       null,       'silver',   'silver'],    
-            [null,      null,       'red',      'red',       null,       null,       null,       'silver',   'silver',   null],    
-            [null,      null,       null,       'red',      'red',       null,       'silver',   'silver',   null,       null],    
-            [null,      'silver',       null,       null,       'silver',   'silver',   'silver',   null,       null,       'silver',  ],
-            [null,      null,       null,       null,       null,       'silver',   null,       null,       null,       null]
+            ["red",      "red",      'red',      'red',       'red',       'red',     'red',      'red',       "red",       "red"],
+            ['red',     'red',      'red',       'red',       'red',      'red',      'red',     'red',      'red',       'red'],
+            ['blue',     'blue',       'blue',       'blue',      'blue',      'blue',     'blue',       'blue',     'blue',       'blue'],
+            ['blue',     'blue',       'blue',     'blue',     'blue',       'blue',      'blue',       'blue',       'blue',     'blue'],    
+            [ 'red',      'red',      'red',     'gold',       'gold',       'gold',    'gold',       'gold',       'silver',   'silver'],    
+            ['red',      'red',       'red',      'red',      'red',       "silver",      "silver",      'silver',   'silver',   "silver"],    
+            ['red','red', 'red'    ,   'red',      'red',        "silver",       'silver',   'silver',    "silver", "silver"],    
+            [ "silver",      'silver',        "silver",        "silver",       'silver',   'silver',   'silver',    "silver",        "silver",       'silver',  ],
+            [ "silver",      "silver",        "silver",        "silver",        "silver",       'silver',    "silver",        "silver",        "silver",       "silver"]
            
         ];
         
